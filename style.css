@@ -31,25 +31,7 @@ ul{
     list-style:none;
 }
 
-:root{
 
-    --primary:#6C63FF;
-    --secondary:#00C6FF;
-
-    --dark:#0F172A;
-    --card:#1E293B;
-
-    --white:#ffffff;
-
-    --text:#CBD5E1;
-
-    --radius:18px;
-
-    --shadow:0 15px 40px rgba(0,0,0,.35);
-
-    --transition:.35s ease;
-
-}
 
 
 ::-webkit-scrollbar{
