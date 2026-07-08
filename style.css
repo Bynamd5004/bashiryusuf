@@ -1,12 +1,4 @@
-/* =========================================
-   GOOGLE FONT
-========================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-/* =========================================
-   RESET
-========================================= */
 
 *{
     margin:0;
@@ -39,10 +31,6 @@ ul{
     list-style:none;
 }
 
-/* =========================================
-   VARIABLES
-========================================= */
-
 :root{
 
     --primary:#6C63FF;
@@ -63,9 +51,6 @@ ul{
 
 }
 
-/* =========================================
-   SCROLLBAR
-========================================= */
 
 ::-webkit-scrollbar{
     width:7px;
@@ -80,9 +65,6 @@ ul{
     border-radius:10px;
 }
 
-/* =========================================
-   REUSABLE
-========================================= */
 
 section{
 
@@ -124,10 +106,6 @@ section{
     margin:auto;
 
 }
-
-/* =========================================
-   BUTTONS
-========================================= */
 
 .btn-primary2 {
     display: flex;
@@ -182,10 +160,6 @@ section{
 
 }
 
-/* =========================================
-   HEADER
-========================================= */
-
 header{
 
     position:fixed;
@@ -206,9 +180,6 @@ header{
 
 }
 
-/* =========================================
-   NAVBAR
-========================================= */
 
 .navbar{
 
@@ -301,10 +272,6 @@ header{
     cursor:pointer;
 
 }
-
-/* =========================================
-   HERO
-========================================= */
 
 .hero{
 
@@ -425,10 +392,6 @@ header{
 
 }
 
-/* =========================================
-   HERO IMAGE
-========================================= */
-
 .hero-image{
 
     position:relative;
@@ -524,9 +487,6 @@ header{
 
 }
 
-/* =========================================
-   SCROLL INDICATOR
-========================================= */
 
 .scroll-down{
 
@@ -547,10 +507,6 @@ header{
     animation:bounce 1.8s infinite;
 
 }
-
-/* =========================================
-   ANIMATIONS
-========================================= */
 
 @keyframes float{
 
@@ -596,9 +552,6 @@ header{
 
 }
 
-/*======================================
-    ABOUT SECTION
-=======================================*/
 
 .about-container{
     display:flex;
@@ -651,10 +604,6 @@ header{
     margin-bottom:10px;
 }
 
-/*======================================
-    SERVICES
-=======================================*/
-
 .services-container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -690,9 +639,6 @@ header{
     line-height:1.8;
 }
 
-/*======================================
-    SKILLS
-=======================================*/
 
 .skills-container{
     max-width:850px;
@@ -753,10 +699,6 @@ header{
     }
 
 }
-
-/*======================================
-    EXPERIENCE
-=======================================*/
 
 .timeline{
     max-width:900px;
@@ -840,9 +782,6 @@ header{
     left:-9px;
 }
 
-/*======================================
-    PROJECTS
-=======================================*/
 
 .projects-container{
     display:grid;
@@ -912,9 +851,6 @@ header{
     background:var(--secondary);
 }
 
-/*======================================
-    CERTIFICATES
-=======================================*/
 
 .certificate-container{
     display:grid;
@@ -953,9 +889,129 @@ header{
     color:var(--text);
 }
 
-/*======================================
-    STATISTICS
-=======================================*/
+
+
+header{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+    background:#111827;
+
+}
+
+header h1{
+
+    font-size:3rem;
+
+    color:#3b82f6;
+
+}
+
+header p{
+
+    margin-top:10px;
+
+    color:#cbd5e1;
+
+}
+
+.media-box{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:50px auto;
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+.media-box h2{
+
+    color:#3b82f6;
+
+    margin-bottom:15px;
+
+}
+
+.media-box p{
+
+    margin-bottom:20px;
+
+    color:#cbd5e1;
+
+}
+
+audio{
+
+    width:100%;
+
+}
+
+video{
+
+    width:100%;
+
+    border-radius:10px;
+
+}
+
+iframe{
+
+    width:100%;
+
+    aspect-ratio:16/9;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    background:#111827;
+
+    margin-top:60px;
+
+}
+
+@media(max-width:768px){
+
+header h1{
+
+    font-size:2rem;
+
+}
+
+.media-box{
+
+    padding:20px;
+
+}
+
+.media-box h2{
+
+    font-size:1.4rem;
+
+}
+
+}
+
+
 
 .statistics{
     background:linear-gradient(
@@ -993,11 +1049,6 @@ header{
     color:var(--text);
     font-size:18px;
 }
-
-/*======================================
-    TESTIMONIALS
-=======================================*/
-
 
 
 .testimonial-card{
@@ -1059,9 +1110,6 @@ header{
     bottom:-30px;
 }
 
-/*======================================
-    CONTACT SECTION
-=======================================*/
 
 .contact-container{
     display:grid;
@@ -1140,9 +1188,6 @@ header{
 
 }
 
-/*======================================
-    FOOTER
-=======================================*/
 
 footer{
 
@@ -1281,9 +1326,6 @@ footer{
 
 }
 
-/*======================================
-    MOBILE MENU
-=======================================*/
 
 .mobile-menu{
 
@@ -1333,9 +1375,6 @@ footer{
 
 }
 
-/*======================================
-    RESPONSIVE
-=======================================*/
 
 @media(max-width:1100px){
 
@@ -1539,9 +1578,6 @@ font-size:22px;
 
 }
 
-/*======================================
-    EXTRA ANIMATIONS
-=======================================*/
 
 .service-card,
 .project-card,
