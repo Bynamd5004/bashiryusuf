@@ -1,11 +1,3 @@
-// ======================================
-// PORTFOLIO WEBSITE JAVASCRIPT
-// ======================================
-
-// ======================================
-// MOBILE MENU
-// ======================================
-
 const menuBtn = document.querySelector(".menu-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 
@@ -32,9 +24,6 @@ document.querySelectorAll(".mobile-menu a").forEach(link => {
 
 });
 
-// ======================================
-// STICKY HEADER
-// ======================================
 
 const header = document.querySelector("header");
 
@@ -56,10 +45,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ======================================
-// BACK TO TOP
-// ======================================
-
 const backToTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll", () => {
@@ -77,10 +62,6 @@ window.addEventListener("scroll", () => {
     }
 
 });
-
-// ======================================
-// COUNTER ANIMATION
-// ======================================
 
 const counters = document.querySelectorAll(".counter");
 
@@ -138,10 +119,6 @@ counters.forEach(counter => {
 
 });
 
-// ======================================
-// SCROLL REVEAL
-// ======================================
-
 const reveals = document.querySelectorAll(
 
 "section, .service-card, .project-card, .certificate-card, .testimonial-card, .info-box"
@@ -179,10 +156,6 @@ reveals.forEach(item => {
     revealObserver.observe(item);
 
 });
-
-// ======================================
-// ACTIVE NAVIGATION
-// ======================================
 
 const sections = document.querySelectorAll("section");
 
@@ -224,10 +197,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ======================================
-// SMOOTH SCROLL
-// ======================================
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     anchor.addEventListener("click", function (e) {
@@ -250,9 +219,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 });
 
-// ======================================
-// CONTACT FORM
-// ======================================
 
 const form = document.querySelector(".contact-form");
 
@@ -299,10 +265,6 @@ if (form) {
     });
 
 }
-
-// ======================================
-// TYPING EFFECT
-// ======================================
 
 const title = document.querySelector(".hero-text h2");
 
@@ -373,10 +335,6 @@ setTimeout(type, deleting ? 60 : 120);
 type();
 
 }
-
-// ======================================
-// CURRENT YEAR
-// ======================================
 
 const year = new Date().getFullYear();
 
